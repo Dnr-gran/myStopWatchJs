@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(0deg, #5900cd, #e6007f);
+}
+
+.stopwatch-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    padding: 30px;
+    border: 5px solid #fff;
+    border-radius: 20px;
+    background-color: #5900cd;
+}
+
+.display-container{
+    font-size: 5rem;
+    font-weight: 600;
+    color: #fff;
+    text-shadow: 2px 2px 2px black;
+    margin-bottom: 25px;
+}
+
+.btn-container button{
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 1rem;
+    min-width: 120px;
+    border: 2px solid #000;
+    background-color: #ffb259;
+    cursor: pointer;
+    transition: background-color .5s ease;
+}
+
+.btn-container button:hover{
+    background-color: #ffb259c2;
+}
+
+.btn-container button:active{
+    transform: translatey(1px);
+    box-shadow: 1px 1px 1px #000;
+}
+
+.btn-container button:first-child{
+    border-bottom-left-radius: 20px;
+    background-color: #00ff6e;
+}
+
+.btn-container button:first-child:hover{
+    border-bottom-left-radius: 20px;
+    background-color: #00ff6eb5;
+}
+
+.btn-container button:last-child{
+    border-bottom-right-radius: 20px;
+    background-color: #ff002b;
+}
+
+.btn-container button:last-child:hover{
+    border-bottom-right-radius: 20px;
+    background-color: #ff002bc5;
+}

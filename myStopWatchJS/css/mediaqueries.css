@@ -1,0 +1,27 @@
+@media screen and (max-width: 576px) {
+    .stopwatch-container{
+        min-width: 350px;
+        padding: 20px;
+    }
+
+    .display-container{
+        font-size: 4rem;
+        margin-bottom: 20px;
+        padding: 20px;
+    }
+
+    .btn-container button{
+        font-weight: 500;
+        min-width: 49%;
+    }
+
+    .btn-container button:first-child{
+        border-radius: 0;
+    }
+
+    .btn-container button:last-child{
+        margin-top: 5px;
+        min-width: 100%;
+        border-radius: 0 0 20px 20px;
+    }
+}
